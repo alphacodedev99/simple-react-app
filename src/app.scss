@@ -1,0 +1,23 @@
+.allUser{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap:20px;
+
+    .user{
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        h3{
+            text-align: center;
+            color: #333;
+
+        }
+    }
+}

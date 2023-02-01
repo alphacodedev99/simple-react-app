@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    gap: 20px;
+
+    input{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    button{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(124, 0, 0);
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
